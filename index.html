@@ -1,136 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Kathleen Cano - Graphic & Web Designer</title>
-        <style>:root { --primary-bg: #1a1a1a; --primary-color: #ffffff; --secondary-bg: #f9f9f9; --text-color: #333333; --accent-color: #666666; --link-color: #007bff; } body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #e9ecef; color: var(--text-color); line-height: 1.6; } .container { max-width: 1200px;  /* Increased max-width slightly to accommodate 50/50 better */ margin: 40px auto; background: #ffffff; display: flex; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; } /* Sidebar Styling */.sidebar { background-color: var(--primary-bg); color: var(--primary-color); width: 50%;  /* Changed from 35% to 50% */ padding: 50px 40px; box-sizing: border-box; } .profile-img-container { text-align: center; margin-bottom: 30px; } .profile-img-container img { width: 180px; height: 180px; border-radius: 50%; border: 5px solid var(--accent-color); object-fit: cover; } .contact-info { margin-bottom: 30px; font-size: 0.9em; } .contact-info a { color: var(--primary-color); text-decoration: none; } .contact-info a:hover { text-decoration: underline; } .sidebar h3 { border-bottom: 2px solid var(--accent-color); padding-bottom: 5px; margin-top: 30px; margin-bottom: 15px; font-size: 1.2em; text-transform: uppercase; letter-spacing: 1px; } .sidebar ul { list-style-type: none; padding: 0; margin: 0; } .sidebar ul li { margin-bottom: 8px; font-size: 0.95em; } /* Main Content Styling */.main-content { width: 50%;  /* Changed from 65% to 50% */ padding: 50px 40px; box-sizing: border-box; background-color: var(--secondary-bg); } .header h1 { margin: 0; font-size: 2.8em; color: #111; text-transform: uppercase; letter-spacing: 2px; } .header h2 { margin: 5px 0 30px 0; font-weight: 300; color: var(--accent-color); font-size: 1.5em; } .section-title { color: var(--primary-bg); text-transform: uppercase; border-bottom: 2px solid #ddd; padding-bottom: 8px; margin-bottom: 20px; margin-top: 40px; letter-spacing: 1.5px; } .job { margin-bottom: 25px; } .job-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; } .job-title { font-weight: bold; font-size: 1.1em; color: #222; } .job-company { font-style: italic; color: #555; } .job-date { font-size: 0.9em; color: #777; } .job-description { margin: 0; padding-left: 20px; } .job-description li { margin-bottom: 5px; } .edu-item, .ref-item { margin-bottom: 15px; } .ref-item p { margin: 2px 0; } /* Responsive */@media (max-width: 768px) { .container {  flex-direction: column;  margin: 0;  border-radius: 0; }  .sidebar, .main-content {  width: 100%; } }</style>
-    </head>
-    <body>
-        <div class="container">
-            <!-- Left Column: Sidebar -->
-            <div class="sidebar">
-                <div class="profile-img-container">
-                    <img src="profile.png" alt="Kathleen Cano Profile Picture" id="profilePic"/>
-                </div>
-                <div class="contact-info">
-                    <p>📧 <a href="mailto:kathleencelinecano@gmail.com">kathleencelinecano@gmail.com</a></p>
-                    <p>📞 +63 929 709 5239</p>
-                    <p>🌐 <a href="https://katecano.netlify.app" target="_blank">katecano.netlify.app</a></p>
-                </div>
-                <h3>Professional Skills</h3>
-                <ul>
-                    <li>Content Creation</li>
-                    <li>Email Campaigns</li>
-                    <li>Landing Page Builds</li>
-                    <li>Video Editing</li>
-                    <li>Content Calendar Management</li>
-                </ul>
-                <h3>Software Experience</h3>
-                <ul>
-                    <li>Adobe</li>
-                    <li>GoHighLevel</li>
-                    <li>Canva</li>
-                    <li>Hubspot</li>
-                    <li>Mailchimp</li>
-                    <li>Wix</li>
-                    <li>Squarespace</li>
-                    <li>GoDaddy Web + Marketing Builder</li>
-                    <li>Wordpress + Elementor</li>
-                    <li>Sprout Social</li>
-                </ul>
-                <h3>Education</h3>
-                <div class="edu-item"><strong>Bachelor of Fine Arts - Advertising</strong>
-                    <br/>
-                    College of the Holy Spirit Manila<br/><span style="font-size: 0.85em; color: #ccc;">Jun 2008 - Mar 2012</span>
-                </div>
-                <div class="edu-item"><strong>Foundations of User Experience (UX) Design</strong>
-                    <br/>
-                    Google<br/><span style="font-size: 0.85em; color: #ccc;">Oct 2021</span>
-                </div>
-            </div>
-            <!-- Right Column: Main Content -->
-            <div class="main-content">
-                <div class="header">
-                    <h1>Kathleen<br/>Cano</h1>
-                    <h2>Graphic & Web Designer + VA</h2>
-                </div>
-                <h3 class="section-title">Work Experience</h3>
-                <div class="job">
-                    <div class="job-header">
-                        <div><span class="job-title">Graphic & Web Designer + VA</span>
-                            <br/><span class="job-company">Freelancing</span>
-                        </div>
-                        <div class="job-date">Nov 2021 - Present</div>
-                    </div>
-                    <ul class="job-description">
-                        <li>Created Landing Pages with Lead Captures</li>
-                        <li>Automation Sequence on GoHighLevel</li>
-                        <li>Created Wix websites with Email Integration</li>
-                        <li>Created Ads for Advertising Agencies</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <div class="job-header">
-                        <div><span class="job-title">Senior Graphic Designer</span>
-                            <br/><span class="job-company">Mayfair</span>
-                        </div>
-                        <div class="job-date">Jan 2018 - Nov 2021</div>
-                    </div>
-                    <ul class="job-description">
-                        <li>Created art direction for all graphics for website and social media.</li>
-                        <li>Designed websites and newsletters</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <div class="job-header">
-                        <div><span class="job-title">Multimedia Graphic Designer</span>
-                            <br/><span class="job-company">Caspio</span>
-                        </div>
-                        <div class="job-date">Jul 2017 - Jan 2018</div>
-                    </div>
-                    <ul class="job-description">
-                        <li>Created art direction for visual identity and branding of the company.</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <div class="job-header">
-                        <div><span class="job-title">Web and Graphics Designer</span>
-                            <br/><span class="job-company">StickMedia</span>
-                        </div>
-                        <div class="job-date">Dec 2016 - Jul 2017</div>
-                    </div>
-                    <ul class="job-description">
-                        <li>Designed hero banners and mockups for websites.</li>
-                        <li>Design newsletters for campaigns</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <div class="job-header">
-                        <div><span class="job-title">Graphic Designer</span>
-                            <br/><span class="job-company">Deltek</span>
-                        </div>
-                        <div class="job-date">Oct 2015 - Nov 2016</div>
-                    </div>
-                    <ul class="job-description">
-                        <li>Created Ads for Google and Linkedin</li>
-                        <li>Created web and print assets like Whitepaper, Annual Reports, Case Studies etc.</li>
-                    </ul>
-                </div>
-                <h3 class="section-title">References</h3>
-                <div class="ref-item"><strong>Keith Arvin Magnaye</strong>
-                    <p>HBCI / Associate Creative Director</p>
-                    <p style="font-size: 0.9em; color: #555;">📧 keithmagnaye.space@gmail.com | 📞 09985141002</p>
-                </div>
-                <div class="ref-item"><strong>Laurence Diche</strong>
-                    <p>Caspio / Creative Director</p>
-                    <p style="font-size: 0.9em; color: #555;">📧 laurence.diche@caspio.com | 📞 09989900580</p>
-                </div>
-                <div class="ref-item"><strong>Michael Dela Peña</strong>
-                    <p>Freelancer / Senior Graphic Designer</p>
-                    <p style="font-size: 0.9em; color: #555;">📧 mdp@mikedelapena.com | 📞 09178583260</p>
-                </div>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathleen Cano - Graphic & Web Designer</title>
+    <style>
+        :root {
+            --primary-bg: #1a1a1a;
+            --primary-color: #ffffff;
+            --secondary-bg: #f9f9f9;
+            --text-color: #333333;
+            --accent-color: #666666;
+            --link-color: #007bff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px; 
+            margin: 40px auto;
+            background: #ffffff;
+            display: flex;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling (Now on the Right) */
+        .sidebar {
+            background-color: var(--primary-bg);
+            color: var(--primary-color);
+            width: 50%; 
+            padding: 50px 40px;
+            box-sizing: border-box;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .sidebar h3 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        /* Main Content Styling (Now on the Left) */
+        .main-content {
+            width: 50%; 
+            padding: 50px 40px;
+            box-sizing: border-box;
+            background-color: var(--secondary-bg);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header h2 {
+            margin: 5px 0 30px 0;
+            font-weight: 300;
+            color: var(--accent-color);
+            font-size: 1.5em;
+        }
+
+        /* Intro Box Styling */
+        .intro-box {
+            background-color: var(--primary-bg);
+            color: var(--primary-color);
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .intro-box h3 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary-color);
+        }
+
+        .intro-box p {
+            font-size: 0.95em;
+            margin-bottom: 15px;
+        }
+
+        .intro-box ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 15px 0 20px 0;
+        }
+
+        .intro-box ul li {
+            margin-bottom: 12px;
+            font-size: 0.95em;
+            padding-left: 15px;
+            border-left: 2px solid var(--accent-color);
+        }
+
+        .intro-box a {
+            color: #99c2ff;
+            text-decoration: none;
+        }
+
+        .intro-box a:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            color: var(--primary-bg);
+            text-transform: uppercase;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            margin-top: 40px;
+            letter-spacing: 1.5px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #222;
+        }
+
+        .job-company {
+            font-style: italic;
+            color: #555;
+        }
+
+        .job-date {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .job-description {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .job-description li {
+            margin-bottom: 5px;
+        }
+
+        .edu-item, .ref-item {
+            margin-bottom: 15px;
+        }
+        
+        .ref-item p {
+            margin: 2px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin: 0;
+                border-radius: 0;
+            }
+            .sidebar, .main-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Left Column: Main Content (Grey Side) -->
+    <div class="main-content">
+        <div class="header">
+            <h1>Kathleen<br>Cano</h1>
+            <h2>Graphic & Web Designer + VA</h2>
         </div>
-    </body>
+
+        <!-- Intro Template Section -->
+        <div class="intro-box">
+            <h3>Intro Template</h3>
+            <p>Hi [Hiring Manager's Name or "Hiring Team"],</p>
+            <p>I am writing to express my interest in the Graphic Design Virtual Assistant position at [Company Name]. With extensive experience managing digital and print design tasks in remote, fast-paced environments, I am eager to bring my creative skills and administrative efficiency to your team.</p>
+            <p>As a versatile Graphic Designer and VA, I specialize in end-to-end design solutions that bridge the gap between creative storytelling and effective digital marketing. Whether it is designing high-converting landing pages, crafting engaging email campaigns, or producing dynamic video content for social media, I know how to deliver flawless, on-brand assets that drive results.</p>
+            <p>A few highlights of what I can bring to [Company Name]:</p>
+            <ul>
+                <li><strong>Comprehensive Tech Stack:</strong> Expert proficiency in the Adobe Creative Suite, Canva, Elementor, and various email marketing platforms (Mailchimp, HubSpot).</li>
+                <li><strong>Multimedia Capabilities:</strong> Experience with UI/UX mockups, print layouts, HTML5 web banners, and video editing for Reels and Stories.</li>
+                <li><strong>Efficient Workflow:</strong> I am recognized by past teams for my fast execution, passionate approach, and ability to consistently deliver out-of-the-box designs with minimal need for revisions.</li>
+            </ul>
+            <p>I am highly adaptable, comfortable working under pressure, and dedicated to taking ownership of my projects so that you can focus on growing the business.</p>
+            <p>I have attached my resume and a link to my portfolio for your review: <a href="https://katecano.netlify.app/" target="_blank">https://katecano.netlify.app/</a></p>
+            <p>Thank you for your time and consideration. I would love the opportunity to discuss how my background and creative drive align with the goals at [Company Name].</p>
+            <p>Best regards,<br>Kathleen Cano</p>
+        </div>
+
+        <h3 class="section-title">Work Experience</h3>
+        
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Graphic & Web Designer + VA</span><br>
+                    <span class="job-company">Freelancing</span>
+                </div>
+                <div class="job-date">Nov 2021 - Present</div>
+            </div>
+            <ul class="job-description">
+                <li>Created Landing Pages with Lead Captures</li>
+                <li>Automation Sequence on GoHighLevel</li>
+                <li>Created Wix websites with Email Integration</li>
+                <li>Created Ads for Advertising Agencies</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Senior Graphic Designer</span><br>
+                    <span class="job-company">Mayfair</span>
+                </div>
+                <div class="job-date">Jan 2018 - Nov 2021</div>
+            </div>
+            <ul class="job-description">
+                <li>Created art direction for all graphics for website and social media.</li>
+                <li>Designed websites and newsletters</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Multimedia Graphic Designer</span><br>
+                    <span class="job-company">Caspio</span>
+                </div>
+                <div class="job-date">Jul 2017 - Jan 2018</div>
+            </div>
+            <ul class="job-description">
+                <li>Created art direction for visual identity and branding of the company.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Web and Graphics Designer</span><br>
+                    <span class="job-company">StickMedia</span>
+                </div>
+                <div class="job-date">Dec 2016 - Jul 2017</div>
+            </div>
+            <ul class="job-description">
+                <li>Designed hero banners and mockups for websites.</li>
+                <li>Design newsletters for campaigns</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Graphic Designer</span><br>
+                    <span class="job-company">Deltek</span>
+                </div>
+                <div class="job-date">Oct 2015 - Nov 2016</div>
+            </div>
+            <ul class="job-description">
+                <li>Created Ads for Google and Linkedin</li>
+                <li>Created web and print assets like Whitepaper, Annual Reports, Case Studies etc.</li>
+            </ul>
+        </div>
+        
+        <h3 class="section-title">References</h3>
+        
+        <div class="ref-item">
+            <strong>Keith Arvin Magnaye</strong>
+            <p>HBCI / Associate Creative Director</p>
+            <p style="font-size: 0.9em; color: #555;">📧 keithmagnaye.space@gmail.com | 📞 09985141002</p>
+        </div>
+        
+        <div class="ref-item">
+            <strong>Laurence Diche</strong>
+            <p>Caspio / Creative Director</p>
+            <p style="font-size: 0.9em; color: #555;">📧 laurence.diche@caspio.com | 📞 09989900580</p>
+        </div>
+        
+        <div class="ref-item">
+            <strong>Michael Dela Peña</strong>
+            <p>Freelancer / Senior Graphic Designer</p>
+            <p style="font-size: 0.9em; color: #555;">📧 mdp@mikedelapena.com | 📞 09178583260</p>
+        </div>
+
+    </div>
+
+    <!-- Right Column: Sidebar (Black Side) -->
+    <div class="sidebar">
+        <!-- Profile Image removed per request -->
+
+        <div class="contact-info">
+            <p>📧 <a href="mailto:kathleencelinecano@gmail.com">kathleencelinecano@gmail.com</a></p>
+            <p>📞 +63 929 709 5239</p>
+            <p>🌐 <a href="https://katecano.netlify.app" target="_blank">katecano.netlify.app</a></p>
+        </div>
+
+        <h3>Professional Skills</h3>
+        <ul>
+            <li>Content Creation</li>
+            <li>Email Campaigns</li>
+            <li>Landing Page Builds</li>
+            <li>Video Editing</li>
+            <li>Content Calendar Management</li>
+        </ul>
+
+        <h3>Software Experience</h3>
+        <ul>
+            <li>Adobe</li>
+            <li>GoHighLevel</li>
+            <li>Canva</li>
+            <li>Hubspot</li>
+            <li>Mailchimp</li>
+            <li>Wix</li>
+            <li>Squarespace</li>
+            <li>GoDaddy Web + Marketing Builder</li>
+            <li>Wordpress + Elementor</li>
+            <li>Sprout Social</li>
+        </ul>
+        
+        <h3>Education</h3>
+        <div class="edu-item">
+            <strong>Bachelor of Fine Arts - Advertising</strong><br>
+            College of the Holy Spirit Manila<br>
+            <span style="font-size: 0.85em; color: #ccc;">Jun 2008 - Mar 2012</span>
+        </div>
+        <div class="edu-item">
+            <strong>Foundations of User Experience (UX) Design</strong><br>
+            Google<br>
+            <span style="font-size: 0.85em; color: #ccc;">Oct 2021</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
 </html>
